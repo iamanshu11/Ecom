@@ -689,6 +689,35 @@
     margin-top: 40px;
 }
 
+.single-features-style3 .img-data span::before {
+    position: relative;
+    /* display: inline-block; */
+    top: 15px;
+    left: -15px;
+    color: #333333;
+    font-size: 75px;
+    line-height: 200px;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+.single-features-style3 .img-data {
+    position: absolute;
+    top: -50px;
+    right: -50px;
+    width: 200px;
+    height: 200px;
+    background: #e9ebf4;
+    border-radius: 50%;
+    text-align: center;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+
+.single-features-style3 .img-data img{
+    position: absolute;
+    left: 40px;
+    top: 75px;
+}
 
 
 /*** 
