@@ -129,7 +129,7 @@ p{
   justify-content: space-between;
   padding: 10px 0 10px 30px;
   font-family: "PingFang SC";
-  font-size: 15px;
+  font-size: 18px;
   font-weight: 700;
   color: #005785;
   white-space: nowrap;
@@ -790,6 +790,10 @@ section {
 
 }
 
+.our-service-text-left-down h4{
+  font-size: 21px;
+  color: #005785;
+}
 @media (max-width: 991px) {
   .ecom-gap{
     gap: 20px;
