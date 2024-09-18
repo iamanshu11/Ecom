@@ -560,6 +560,20 @@ section {
     font-size: 12px;
   }
 
+  .home-hero{
+    background-image: url(../img/home/hero-mob.webp);
+    background-size: cover;
+    background-position: bottom;
+    background-position-y: 80%;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+  }
+  
+
 }
 /*========================Vision===================================*/
 .vision{
