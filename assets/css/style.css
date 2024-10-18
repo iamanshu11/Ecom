@@ -561,7 +561,7 @@ section {
   }
 
   .home-hero{
-    background-image: url(../img/home/hero-mob.webp);
+    background-image: url(../img/home/hero.webp);
     background-size: cover;
     background-position: bottom;
     background-position-y: 80%;
@@ -984,7 +984,18 @@ section {
   align-items: center;
   justify-content: center;
   color: #fff;
+  
+}
 
+.contact-data-prev{
+  position: relative;
+
+
+}
+.contact-hero-left{
+  position: absolute;
+  right: -20%;
+  top: 60%;
 }
 .home-hero-content h1 {
   font-size: 48px;
@@ -1049,6 +1060,11 @@ section {
   .featured-insights-text h4{
     font-size: 22px;
   }
+  .contact-hero-left{
+    position: absolute;
+    right: -100%;
+    top: 100%;
+  }
 
 }
 
@@ -1095,4 +1111,12 @@ section {
 
 .privacy-text{
   font-weight:700 ;
+}
+
+.ecom-voice-data{
+  position: relative;
+}
+.ecom-voice-data-circle{
+  position: absolute;
+  top: 0;
 }
